@@ -19,7 +19,7 @@ const Controls = (props) => {
         );
       }
     };
-  });
+  }, []);
 
   const muteButtonOnClick = async () => {
     if (muted) {
