@@ -21,6 +21,7 @@ const Controls = (props) => {
     };
   }, []);
 
+
   const muteButtonOnClick = async () => {
     if (muted) {
       props.chime.audioVideo.realtimeUnmuteLocalAudio();
